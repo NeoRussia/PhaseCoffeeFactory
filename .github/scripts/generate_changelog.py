@@ -170,7 +170,7 @@ def generate_mod_changelog():
             markdown += f"- {removal['name']}\n"
         markdown += "\n"
     
-    return markdown, pack_old_version, pack_new_version
+    return markdown
 
 # Get the date of a git reference
 def get_reference_date(ref):
@@ -430,7 +430,7 @@ def generate_full_changelog():
     current_version = VERSION
     
     # Generate mod changes section and get pack versions
-    mod_changes, pack_old_version, pack_new_version = generate_mod_changelog()
+    mod_changes = generate_mod_changelog()
     
     # Get merged PRs since the last tag from main repo
     main_prs = get_merged_prs_between_refs("NeoRussia/PhaseCoffeeFactory", tag)
