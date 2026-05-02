@@ -1,0 +1,119 @@
+name: Curseforge Export
+ 
+on:
+  push:
+    tags:
+      - "v*.*.*"         # Trigger on version tags like v1.0.0
+  workflow_dispatch:     # Allow manual runs from the Actions tab
+    inputs:
+      version:
+        description: "Version label (e.g. 1.2.3)"
+        required: false
+        default: "manual"
+ 
+jobs:
+  export:
+    name: Build & Upload CurseForge Pack
+    runs-on: ubuntu-latest
+ 
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+ 
+      # ── 2. Resolve version string ──────────────────────────────────────────
+      - name: Set version
+        id: version
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            VERSION="${GITHUB_REF#refs/tags/}"
+          else
+            VERSION="${{ github.event.inputs.version }}-${GITHUB_SHA::7}"
+          fi
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
+          echo "Resolved version: ${VERSION}"
+ 
+      # ── 3. Validate manifest.json ──────────────────────────────────────────
+      - name: Validate manifest.json
+        run: |
+          if [ ! -f manifest.json ]; then
+            echo "::error::manifest.json not found in repo root"
+            exit 1
+          fi
+          # Check required CurseForge manifest fields
+          for field in minecraft name version author files; do
+            if ! jq -e ".${field}" manifest.json > /dev/null 2>&1; then
+              echo "::warning::manifest.json is missing field: ${field}"
+            fi
+          done
+          echo "manifest.json looks good."
+          jq . manifest.json   # Pretty-print for the log
+ 
+      # ── 4. Stamp version into manifest ────────────────────────────────────
+      - name: Update manifest version
+        run: |
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          jq --arg v "$VERSION" '.version = $v' manifest.json > manifest.tmp.json
+          mv manifest.tmp.json manifest.json
+          echo "Stamped version ${VERSION} into manifest.json"
+ 
+      # ── 5. Build the zip ───────────────────────────────────────────────────
+      # CurseForge expects:
+      #   manifest.json      – mod list & MC/Forge/Fabric version
+      #   modlist.html       – human-readable mod list (optional but recommended)
+      #   overrides/         – configs, scripts, resources, etc.
+      - name: Assemble CurseForge zip
+        run: |
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          PACK_NAME="$(jq -r '.name' manifest.json | tr ' ' '_')"
+          ZIP_NAME="${PACK_NAME}-${VERSION}-curseforge.zip"
+          echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
+ 
+          mkdir -p staging/overrides
+ 
+          # Copy manifest (required)
+          cp manifest.json staging/
+ 
+          # Copy modlist if it exists
+          [ -f modlist.html ] && cp modlist.html staging/
+ 
+          # Copy override folders into overrides/
+          # Adjust this list to match your repo layout
+          for dir in config kubejs defaultconfigs resources scripts patchouli_books; do
+            if [ -d "$dir" ]; then
+              echo "  Adding override: ${dir}/"
+              cp -r "$dir" staging/overrides/
+            fi
+          done
+ 
+          # Optional: copy top-level override files
+          for file in options.txt servers.dat; do
+            [ -f "$file" ] && cp "$file" staging/overrides/
+          done
+ 
+          # Create the zip
+          cd staging
+          zip -r "../${ZIP_NAME}" .
+          cd ..
+ 
+          echo "Created: ${ZIP_NAME}"
+          echo "Contents:"
+          unzip -l "${ZIP_NAME}"
+ 
+      # ── 6. Upload as workflow artifact ────────────────────────────────────
+      - name: Upload zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: ${{ env.ZIP_NAME }}
+          retention-days: 30
+ 
+      # ── 7. Attach to GitHub Release (tag builds only) ─────────────────────
+      - name: Attach to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.ZIP_NAME }}
+          generate_release_notes: true   # Auto-generates changelog from commits
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
