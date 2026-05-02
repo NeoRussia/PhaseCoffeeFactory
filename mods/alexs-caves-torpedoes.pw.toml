@@ -1,0 +1,13 @@
+name = "Alex's Caves: Stuff & Torpedoes"
+filename = "alexscaves_torpedoes-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "616852e109f7f063ad614d9b566967590581e2bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6582083
+project-id = 990013

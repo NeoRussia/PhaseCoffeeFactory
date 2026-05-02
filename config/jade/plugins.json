@@ -1,10 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
-  "enderchests": {
-    "hud": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -57,14 +51,15 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
-  },
-  "tombstone": {
-    "graves": true
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "endertanks": {
     "hud.basic": true,
@@ -72,12 +67,11 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -87,24 +81,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "expatternprovider": {
-    "jade_chamber": true,
-    "jade_wireless": true
-  },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
-  "apotheosis": {
-    "ench": true,
-    "spawner": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
+  "adorablehamsterpets": {
+    "hamster_debug_info": true,
+    "hamster_bed_info": true,
+    "wild_bush_tooltips": true,
+    "hamster_genetics": true
   },
   "ae2": {
     "part_icon": true,
@@ -118,9 +99,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -131,15 +109,67 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
     "breeder": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
+  "enderchests": {
+    "hud": true
+  },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
+  "tombstone": {
+    "decorative_graves": true,
+    "player_graves": true
+  },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "apotheosis": {
+    "ench": true,
+    "spawner": true
+  },
+  "functionalstorage": {
+    "armory": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
   },
   "delightful": {
     "crop_progress": true,
@@ -148,26 +178,5 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
   }
 }

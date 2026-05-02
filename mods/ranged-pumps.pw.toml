@@ -1,0 +1,13 @@
+name = "Ranged Pumps"
+filename = "rangedpumps-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e297ddd6fbcb86eef7efbb62026732d982fa8bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4629841
+project-id = 247496

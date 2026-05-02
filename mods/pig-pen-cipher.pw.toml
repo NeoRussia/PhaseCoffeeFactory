@@ -1,0 +1,13 @@
+name = "Pig Pen Cipher"
+filename = "PigPen-Forge-1.20.1-15.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6361b02674f6eaf9192f04d705f8086ec153e062"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7613222
+project-id = 396234

@@ -1,0 +1,25 @@
+
+["Common Configs for Kawaii Dishes"]
+	#Define if the Kawaii Effect can send messages to local players
+	canSendMessage = true
+	#Set the chance to message the player
+	#Range: 0.0 ~ 1.0
+	chanceToMessage = 2.5E-4
+	#Sets the messages that are sent to the player
+	messages = ["You look so kawaii !!", "OuO", "Cute <3", "You look nice today", "Hi Cutie !", "Hey sweetie!"]
+	#Should the mobs spawn with the maid dresses
+	shouldSpawn = true
+	#Sets the chance for mobs to spawn with maid dresses
+	#Range: 0.0 ~ 1.0
+	chanceToSpawn = 0.075
+	#Sets the chance for mobs that spawn with maid dresses to drop them
+	#Range: 0.0 ~ 1.0
+	chanceToDrop = 0.25
+	#Should the add item trades for villagers
+	villagerTrades = true
+	#Should the add item trades for wandering traders
+	wanderingTraderTrades = true
+	#Structure generation weights for the village houses
+	#Range: 0 ~ 450
+	villageStructWeight = 125
+

@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/maste/AppData/Roaming/PrismLauncher/instances/Phase Coffee Factory 1.0.3a/minecraft/saves/world
+}
+

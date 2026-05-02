@@ -25,6 +25,9 @@
 	#.
 	#Should flywheels and blocks extending the FlywheelBlock class be animated when apart of trains?
 	animatedFlywheels = true
+	#.
+	#Allow all wrenches to auto-fill `/snr shadow_realm banish` when sneak-used, without requiring the tag ShadowHammer.
+	universalShadowWrench = false
 
 	#.
 	#Smoke Settings
@@ -63,18 +66,4 @@
 			#.
 			#Spawn steam on an interval
 			spawnSteam = false
-
-	#.
-	#Journeymap Settings
-	[client.journeymap]
-		#.
-		#[in Ticks]
-		#Journeymap train overlay update time
-		#Range: 1 ~ 600
-		updateRate = 1
-		#.
-		#[in Ticks]
-		#Journeymap train overlay old marker removal check time
-		#Range: 10 ~ 1200
-		removeObsoleteRate = 200
 

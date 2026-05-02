@@ -30,11 +30,11 @@
 	#Larger Entities slow down the player more
 	heavyEntities = true
 	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
-	allowBabies = false
+	allowBabies = true
 	#Use Whitelist instead of Blacklist for Blocks
 	useWhitelistBlocks = false
 	#Use Whitelist instead of Blacklist for Entities
-	useWhitelistEntities = true
+	useWhitelistEntities = false
 	#Use Whitelist instead of Blacklist for Stacking
 	useWhitelistStacking = false
 	#Whether the player can hit blocks and entities while carrying or not
