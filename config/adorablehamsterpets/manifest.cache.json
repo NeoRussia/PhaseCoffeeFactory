@@ -1,0 +1,69 @@
+{
+  "latest_version": "3.6.0",
+  "messages": [
+    {
+      "title": "New Update: v3.6.0!",
+      "markdown": "messages/v3.6.0-update.md",
+      "published": "2026-04-19T12:00Z",
+      "id": "update-3.6.0",
+      "kind": "update_available",
+      "semver": "3.6.0"
+    },
+    {
+      "title": "What\u0027s New in v3.6.0?",
+      "markdown": "messages/v3.6.0-whats-new.md",
+      "published": "2026-04-19T12:00Z",
+      "id": "whats-new-3.6.0",
+      "kind": "patch_notes",
+      "semver": "3.6.0"
+    },
+    {
+      "title": "New Update: v3.5.0!",
+      "markdown": "messages/v3.5.0-update-available.md",
+      "published": "2025-12-19T12:00Z",
+      "id": "update-3.5.0",
+      "kind": "update_available",
+      "semver": "3.5.0"
+    },
+    {
+      "title": "What\u0027s New in v3.5.0?",
+      "markdown": "messages/v3.5.0-whats-new.md",
+      "published": "2025-12-19T12:05Z",
+      "id": "whats-new-3.5.0",
+      "kind": "patch_notes",
+      "semver": "3.5.0"
+    },
+    {
+      "title": "WE WON MOD OF THE YEAR!",
+      "markdown": "messages/curseforge_moty_vote.md",
+      "published": "2025-12-15T12:00Z",
+      "id": "curseforge_moty_vote",
+      "kind": "announcement",
+      "semver": "3.4.0"
+    },
+    {
+      "title": "New Update: v3.4.0!",
+      "markdown": "messages/v3.4.0-update.md",
+      "published": "2025-11-26T12:00Z",
+      "id": "update-3.4.0",
+      "kind": "update_available",
+      "semver": "3.4.0"
+    },
+    {
+      "title": "What\u0027s New in v3.4.0?",
+      "markdown": "messages/v3.4.0-whats-new.md",
+      "published": "2025-11-26T12:00Z",
+      "id": "whats-new-3.4.0",
+      "kind": "patch_notes",
+      "semver": "3.4.0"
+    },
+    {
+      "title": "What\u0027s New in v3.3.0?",
+      "markdown": "messages/v3.3.0-whats-new.md",
+      "published": "2025-10-04T12:00Z",
+      "id": "whats-new-3.3.0",
+      "kind": "patch_notes",
+      "semver": "3.3.0"
+    }
+  ]
+}

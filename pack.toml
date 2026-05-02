@@ -1,0 +1,13 @@
+name = "Phase Coffee Factory"
+author = "Neeyo"
+version = "1.0.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "13a756770a3cd23a6776650d1634c9a4353bf298c9e95c9174cd1fbe27f1cb8d"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"

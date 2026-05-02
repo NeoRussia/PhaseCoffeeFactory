@@ -1,0 +1,13 @@
+name = "More Dragon Eggs"
+filename = "moredragoneggs-4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22122de407d0df09a0f36c580ed56c22faa52551"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4670879
+project-id = 358700

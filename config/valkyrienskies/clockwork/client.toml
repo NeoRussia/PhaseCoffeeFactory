@@ -1,0 +1,28 @@
+#Enable debug rendering
+debugRender = false
+#Gas energy display unit
+#Allowed Values: JOULE, KCAL
+energyDisplayUnit = "JOULE"
+#Gas mass display unit
+#Allowed Values: KILOGRAM, POUND
+massDisplayUnit = "KILOGRAM"
+#Threshold for high pressure warning. 0.9 = 90% of maximum
+#Range: 0.0 ~ 1.0
+maxPressureWarning = 0.9
+#Threshold for high temperature warning. 0.9 = 90% of maximum
+#Range: 0.0 ~ 1.0
+maxTemperatureWarning = 0.9
+#Pressure display unit
+#Allowed Values: PASCAL, BAR, PSI, MM_HG
+pressureDisplayUnit = "PASCAL"
+#Enable rendering particles for DuctBlock
+renderDuctParticles = true
+#Use metric prefixes for units (15000 Pa = 15 kPa)
+simplifyDisplayUnits = true
+#Temperature display unit
+#Allowed Values: KELVIN, CELSIUS, FAHRENHEIT
+tempDisplayUnit = "KELVIN"
+#Duct volume display unit
+#Allowed Values: CUBIC_METER, GALLON
+volumeDisplayUnit = "CUBIC_METER"
+

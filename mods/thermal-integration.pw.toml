@@ -1,0 +1,13 @@
+name = "Thermal Integration"
+filename = "thermal_integration-1.20.1-11.0.1.27.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d6ecb5e6c8b7dc0a95eeaba012c6bcd1b75e77d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5374210
+project-id = 626708

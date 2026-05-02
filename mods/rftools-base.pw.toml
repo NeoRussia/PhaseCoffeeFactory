@@ -1,0 +1,13 @@
+name = "RFTools Base"
+filename = "rftoolsbase-1.20-5.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "255c0ab024a5e94deffece648b8aa1237f88c05b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6195123
+project-id = 326041
