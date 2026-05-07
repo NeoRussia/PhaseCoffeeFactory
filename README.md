@@ -43,6 +43,7 @@ Then import the generated URL into your launcher.
 | `mods/` | Packwiz‑managed mod definitions |
 | `resourcepacks/` | Built‑in resource packs |
 | `global_packs/required_resources/` | Required global assets |
+| `Jelly's cooked options.txt` | The original options.txt included with the pack |
 
 ---
 
