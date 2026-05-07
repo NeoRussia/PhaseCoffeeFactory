@@ -1,0 +1,13 @@
+name = "OptimizeMod"
+filename = "optimizemodforge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "355c066e16bba844eb62af0145355cdca062cf42"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7791689
+project-id = 1466584

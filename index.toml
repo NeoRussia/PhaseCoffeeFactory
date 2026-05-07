@@ -6280,6 +6280,11 @@ hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
 metafile = true
 
 [[files]]
+file = "mods/ksyxis.pw.toml"
+hash = "8eceefcd5796d8ac69495df67a08ccbcae91f92373456902288fde8036d354c8"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "cfd4a575a343f6022e84439802735d1badd3ea67b782fb3c558403680617ba87"
 metafile = true
@@ -6322,6 +6327,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "a76a1f1d2139ebe5c31c628ed4bb01f3795cfae931dda4093047260507bbfd43"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-ponders.pw.toml"
+hash = "82ab9dda2c9dd237c02e281af2e9e13d92710d877e460b157dd38eba48a75de8"
 metafile = true
 
 [[files]]
@@ -6394,6 +6404,11 @@ hash = "7bb01abc93a90da48ae8452f501ba60e32c468438c0f864e6bc7ef1b5746c712"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+hash = "68e88b30ea09b32a66f85bd9891d58a1c33bb0237321811f271cb7dd734bc57f"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
 metafile = true
@@ -6440,6 +6455,11 @@ metafile = true
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "51bf17db22eee5fb80da0b2efe87b846f1165bafc67a789782c5fd976c406ffa"
+metafile = true
+
+[[files]]
+file = "mods/optimizemod.pw.toml"
+hash = "0f4a14087b8ae31cda12f2452232377911e3858e5d6e797252260cb876198fda"
 metafile = true
 
 [[files]]
@@ -6652,6 +6672,11 @@ hash = "08faa8239705d280e41d353888bf717906fe71b1d5b9278bac9f5cd87b07efb3"
 metafile = true
 
 [[files]]
+file = "mods/structurify.pw.toml"
+hash = "2e42d0a7b8d4b7136e3b1c183ffbb256267448b93e724a8275360d1d766eaac7"
+metafile = true
+
+[[files]]
 file = "mods/super-factory-manager.pw.toml"
 hash = "009798204dbb3b9d9f4a14ca042cfe0efdcc4d4e6280d7fea6ac263d16757d65"
 metafile = true
@@ -6784,6 +6809,11 @@ metafile = true
 [[files]]
 file = "mods/wits.pw.toml"
 hash = "9bacaa634677898501289d720a0054de5c8e224725fd03004492318638005ae9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
 metafile = true
 
 [[files]]
