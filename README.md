@@ -71,7 +71,7 @@ See `LICENSE` for details.
 
 ## 🤝 Credits
 
-- **Phase Connect** — Our oshis and the management team, and Invaders WISH for the original coffee Factory series
+- **Phase Connect** — Our oshis and the management team, and Invaders WISH for the original coffee factory series
 - **Neeyo** — Maintainer of this fork
 - Our lovely [contributors](https://github.com/NeoRussia/PhaseCoffeeFactory/graphs/contributors)
 - All mod authors whose work makes this pack possible
