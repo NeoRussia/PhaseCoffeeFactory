@@ -2689,6 +2689,11 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
+file = "mods/cable-facades.pw.toml"
+hash = "24a8a97bfc63ac149b72ddd05955d29076c96fa6bab6caf62ed952deef67ec18"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "da069e723737ae49203f7572eb774be0fd21f5f083ce7a7ee1bed25916befca8"
 metafile = true
