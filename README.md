@@ -72,6 +72,6 @@ See `LICENSE` for details.
 ## 🤝 Credits
 
 - **Phase Connect** — Original Coffee Factory series inspiration  
-- **NeoRussia** — Maintainer of this fork
+- **Neeyo** — Maintainer of this fork
 - Our lovely [contributors](https://github.com/NeoRussia/PhaseCoffeeFactory/graphs/contributors)
 - All mod authors whose work makes this pack possible
