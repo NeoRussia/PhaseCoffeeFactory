@@ -58,9 +58,6 @@ A full modlist is available here:
 - add new quests, achievements, manual pages
 - find artists to add more invaders-themed assets
 
-### Generating Changelog
-The repository includes a script to generate mod changelogs automatically.
-
 ---
 
 ## 📜 License  
