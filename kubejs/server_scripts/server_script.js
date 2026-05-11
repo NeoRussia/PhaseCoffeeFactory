@@ -412,115 +412,21 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "minecraft:clay_ball"
-        },
-        "loops": 1,
-        "results": [
-            {
-                "item": "ravencoffee:cup_medium_unfired"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    },
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            }
-        ],
-        "transitionalItem": {
-            "item": "ravencoffee:clay_ball"
-        }
-    })
 
-    event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {
-            "item": "minecraft:clay_ball"
-        },
-        "loops": 1,
-        "results": [
-            {
-                "item": "ravencoffee:cup_large_unfired"
-            }
-        ],
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    },
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            },
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    },
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            },
-            {
-                "type": "create:pressing",
-                "ingredients": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            }
-        ],
-        "transitionalItem": {
-            "item": "ravencoffee:clay_ball"
-        }
-    })
+    event.recipes.createSequencedAssembly([
+	    'ravencoffee:cup_medium_unfired',
+	        ], 'minecraft:clay_ball', [
+		    event.recipes.createDeploying('minecraft:clay_ball', ['ravencoffee:clay_ball', 'minecraft:clay_ball']),
+	    	event.recipes.createPressing('ravencoffee:clay_ball', ['ravencoffee:clay_ball', 'minecraft:clay_ball']),
+	    ]).transitionalItem('ravencoffee:clay_ball').loops(1).id('create/sequenced_assembly/cup_medium_unfired')
+
+    event.recipes.createSequencedAssembly([
+        'ravencoffee:cup_large_unfired',
+            ], 'ravencoffee:cup_medium_unfired', [
+    		event.recipes.createDeploying('ravencoffee:cup_medium_unfired', ['ravencoffee:cup_medium_unfired', 'minecraft:clay_ball']),
+    		event.recipes.createPressing('ravencoffee:large_clay_ball', ['ravencoffee:large_clay_ball', 'minecraft:clay_ball']),
+    	]).transitionalItem('ravencoffee:large_clay_ball').loops(1).id('create/sequenced_assembly/cup_large_unfired')
+
 
     // Fill cup of Coffee
     /*event.remove({output:  "ravencoffee:cup_small_brew_basic"})

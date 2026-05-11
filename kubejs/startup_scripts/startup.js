@@ -40,9 +40,17 @@ StartupEvents.registry("item", event => {
         })
 })
 
+// transition items
+// kubejs/assets/kubejs/textures/item/
 
+StartupEvents.registry("item", event => {
+	event.create('ravencoffee:clay_ball', 'create:sequenced_assembly')
+		.displayName('Unfinished Clay Ball')
+		.texture('minecraft:item/clay_ball')
+})
 
-// Visit the wiki for more info - https://kubejs.com/
-
-console.info('Hello, World! (Loaded startup scripts)')
-
+StartupEvents.registry("item", event => {
+	event.create('ravencoffee:large_clay_ball', 'create:sequenced_assembly')
+		.displayName('Unfinished Large Clay Ball')
+		.texture('minecraft:item/clay_ball')
+})
