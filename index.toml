@@ -3335,7 +3335,7 @@ metafile = true
 
 [[files]]
 file = "mods/jaffabricate.pw.toml"
-hash = "8c3de00983b35be2e41cabe30b440ec295a2fcabc12c91eae1b942986b767065"
+hash = "200945b96ddde319b20437788bf39b779d4828aae96245423b38c49f53848fd3"
 metafile = true
 
 [[files]]
