@@ -1,13 +1,13 @@
 name = "Create: Jaffabricate"
-filename = "jaffabricate-1.20.1-0.5.1-1.1.2.jar"
+filename = "jaffabricate-1.20.1-6.0.1-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "015bf2e7ed324fd28634b69924828e550f72fa73"
+hash = "b1f05e5d508e960f01dfb6c65b5a689ee0bfc477"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7271857
+file-id = 7258458
 project-id = 1367725
