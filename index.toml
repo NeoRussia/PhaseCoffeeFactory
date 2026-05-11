@@ -2458,11 +2458,11 @@ hash = "dd35206aeda63dd0d7f740b3d6f232384cefed5642df991888151e5ebbefb5d6"
 
 [[files]]
 file = "manifest.json"
-hash = "ffd306258a15fd69e10f5f8ff1b8c93f578895d7d0f7f9ce330a803f4d97a8e5"
+hash = "708bd599474cab5c58b77a2d896ddfdb54ebfeea74e879ee6dc736e523c20fa4"
 
 [[files]]
 file = "modlist.html"
-hash = "f0483b37ecbe41de1aa72163b057813b85f241e241b2f9e464110d5ffe99dc77"
+hash = "b37ca76d91474d68fe9b4666e7dd9c95b9c928d76cc74e966a7fdbc35e2b2df8"
 
 [[files]]
 file = "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
