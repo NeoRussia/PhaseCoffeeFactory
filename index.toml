@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/scripts/extract-modlist.py"
-hash = "5d0cbc6bc97620c47560d39f0bce8bc6ca03e796c8b5e4da95b7b3655d9ad64c"
-
-[[files]]
-file = ".github/scripts/generate_changelog.py"
-hash = "77079f0496aa8079c535e529a5657f2c41595c4d8599fae3fde1345c1661a050"
-
-[[files]]
-file = ".github/workflows/curseforge-export.yaml"
-hash = "a6ccfce4ab6eefb259b45a697bdf19fce14d75543f27b654c43f41ca8c0a4049"
-
-[[files]]
-file = ".github/workflows/generate-modpack-changelog.yaml"
-hash = "a8ff8c10766b0af14c30003889f0a1d7802c6da04048139e76663d77151cf46b"
-
-[[files]]
 file = "Jelly's cooked options.txt"
 hash = "28720a3185d63cfe0afd2621fe51e546bc3b72550c8a00e2c07c16ff97eb7cbb"
 
@@ -26,7 +10,7 @@ hash = "cef4ef92750706726ae2d55b52345c56d0d3171abac4694433e7a5c2cce75e80"
 
 [[files]]
 file = "README.md"
-hash = "bdeff6a3c61deb4326c8688804d005889c5f913f4190fee23ca96bb7b0b957f4"
+hash = "a9beae981c96344be6038f122030fa4bce3041f2db26d62d3ab0903af36d36a0"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
@@ -1478,7 +1462,7 @@ hash = "d0dcbc7c9c28a398ad2b81c1f6779f34beffbf45560c8c02c063077ab32ded45"
 
 [[files]]
 file = "config/kawaii-dishes-common.toml"
-hash = "ab2496ed979fd8d84b2033a960a0c72c03796ad38a1f60c92d63d0f7bb169c02"
+hash = "eb984003902216b24d3d153f9a51a6932694fb1179664e9b108c429a0510f369"
 
 [[files]]
 file = "config/konkrete/locals/de_de.local"
@@ -1755,6 +1739,10 @@ hash = "55a7b289f6d2ecb116d39b385fb8a883f8317734dd42f3be16af11380e26c0a3"
 [[files]]
 file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
+file = "config/structurify.json"
+hash = "1f0c8193b571d4177dd518a4e480f124a43c4d00de8674a4af3065c91a72b073"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -2073,6 +2061,10 @@ file = "kubejs/client_scripts/client_script.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
+file = "kubejs/client_scripts/jaffabricate.js"
+hash = "6654751f56c5355b7018ff0864d70b86bec0be6791b031edb42071f422f53b60"
+
+[[files]]
 file = "kubejs/client_scripts/remove_invalid_items.js"
 hash = "267ab68d2c9a1d5e7e6771e26a3e09db34ce489cac0ba33d1f083b5de01b8860"
 
@@ -2085,8 +2077,20 @@ file = "kubejs/config/common.properties"
 hash = "2256e34a66f1874391771c6a9b845d69495738ebd5a6c9083387962ddd462684"
 
 [[files]]
+file = "kubejs/data/neeyo-JellyCraft-emojiful-datapack.zip"
+hash = "774dea42c2ce81d2d964bbb0e6e9fc8392daf1ad63119867087b3840bfc475b1"
+
+[[files]]
+file = "kubejs/data/neeyo-PhaseConnect-emojiful-datapack.zip"
+hash = "26c04ab2ead8fcbed21f5ef37e2e073eec302533f344f2ef913d9287672b81fe"
+
+[[files]]
+file = "kubejs/server_scripts/kawaii.js"
+hash = "8fdab5a40b7a4ca51a0a6e7b4daa41fdfa9bd33b4d8507722cc88425da7abe91"
+
+[[files]]
 file = "kubejs/server_scripts/server_script.js"
-hash = "676a71b5aff9d16768be25f6316b7bfc4ac4d70504bffd1c2782aaa7a55c2586"
+hash = "2e606f4785485c125823de6f65aade9e2fae45b6c5247d8ca3239cfb40346bf9"
 
 [[files]]
 file = "kubejs/startup_scripts/remove_railcraft_oregen.js"
@@ -2094,7 +2098,7 @@ hash = "c0a1b3bc6ad256128568c339d01bcceb91b6ac10bdad3fcd19ea2d77f7c9c23a"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "e741fcc8d81d33b973535df93b6bf5c4df1a611b6953272251327e6c851622c0"
+hash = "14bf711caeef85dab0fdea4179c00eba1ba5fbe357eaf550d7598c7fe32aeb2b"
 
 [[files]]
 file = "local/ftbchunks/client-config.snbt"
