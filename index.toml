@@ -3424,6 +3424,16 @@ hash = "8eceefcd5796d8ac69495df67a08ccbcae91f92373456902288fde8036d354c8"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-additions.pw.toml"
+hash = "748fd9bda115507dbe486c90886f449723c60b59529cc4c103489c2326c09528"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "cfd4a575a343f6022e84439802735d1badd3ea67b782fb3c558403680617ba87"
 metafile = true
@@ -3441,6 +3451,11 @@ metafile = true
 [[files]]
 file = "mods/login-protection.pw.toml"
 hash = "0a96e881040a95b2543d18afc3f9e1727e64659ec1548ed2df4fcd7dafbfbbc7"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "de2643b3bb36e6b5fd97540bd79619e0844293b43487ecce1613165a409ce8cc"
 metafile = true
 
 [[files]]
@@ -3520,6 +3535,11 @@ metafile = true
 [[files]]
 file = "mods/more-overlays-updated.pw.toml"
 hash = "18155f139f536592c795f18eae975a82b0200f800693e873316b9157efb6df7b"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "df7a58af5cb547cb765642ee4ed563fa15c59d9e6f44d99229541d4d1d32c84b"
 metafile = true
 
 [[files]]
@@ -3679,6 +3699,11 @@ metafile = true
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "2bcee75d08b33dd6506b7cd3f67ea9d0d2c1bf14e26728fa8e12ef19c895b165"
+metafile = true
+
+[[files]]
+file = "mods/renderjs.pw.toml"
+hash = "672a7cc5ee2929df019468604c877f1d57aaba9a6b989e6ff48e2bd784dee8e5"
 metafile = true
 
 [[files]]
