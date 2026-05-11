@@ -3400,6 +3400,11 @@ hash = "d4a290a9bd2da03a76e63563669d76d9483d00adc77c0d5ba1d72fe4d5eaa69e"
 metafile = true
 
 [[files]]
+file = "mods/kawaii-dishes.pw.toml"
+hash = "2e7e68f564ca3566d8305c4be365565e5b0be879cfd762e65d33cbdaa5e8211b"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "143102be700d30cf68d0988bc9f1b523545e37b7074ee786faac56a388e6f0e9"
 metafile = true
