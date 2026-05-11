@@ -3330,6 +3330,11 @@ hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
+file = "mods/jaffabricate.pw.toml"
+hash = "8c3de00983b35be2e41cabe30b440ec295a2fcabc12c91eae1b942986b767065"
+metafile = true
+
+[[files]]
 file = "mods/jcplugin.pw.toml"
 hash = "5c9deb013e842d42103c2b9d723a91e890648a400831a25a554f2d65d83b778f"
 metafile = true
