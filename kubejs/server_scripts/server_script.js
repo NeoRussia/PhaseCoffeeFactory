@@ -2613,8 +2613,22 @@ ServerEvents.recipes(event => {
             B: '#forge:dyes/magenta',
         }
     )
-})
 
+    event.shaped(
+        Item.of('jaffabricate:orange_sapling', 1),
+        [
+            'WW ',
+            'A  ', // arg 2: the shape (array of strings)
+            '   '
+        ],
+        {
+            W: 'jaffabricate:orange',
+            A: '#minecraft:saplings',
+        }
+    )
+
+
+})
 // Visit the wiki for more info - https://kubejs.com/
 console.info('Loaded server scripts!')
 
