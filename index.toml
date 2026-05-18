@@ -2852,6 +2852,11 @@ hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "ea56fed05fb38c1390a59961dabc757c5c9cb7a6adba3a5e0e1203971f082fd7"
 metafile = true
@@ -2899,6 +2904,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "200b30b8eeaaf2fa9e8345fcabdd80f6195b5af67926fb1e277931100e7e1eff"
+metafile = true
+
+[[files]]
+file = "mods/create-escalated.pw.toml"
+hash = "c6662c88657d43c539c4094e26f7c3ae9fd84a707c8a7bbd3737ee74839f45c9"
 metafile = true
 
 [[files]]
@@ -3262,6 +3272,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "2621dfb5b3ad17a3adf927cc92a3bc6b0dd982c32f0265f920b29a61b34d182e"
 metafile = true
 
 [[files]]
