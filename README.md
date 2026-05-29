@@ -1,5 +1,5 @@
 # ☕ Phase Coffee Factory  
-**Official fork of the Phase Connect Coffee Factory series modpack**
+**Unofficial fork of the Phase Connect Coffee Factory series modpack**
 
 A refined, actively maintained fork of the original Phase Connect Coffee Factory modpack as seen in WISH/Quest Invaders Phase Coffee Factory series.  
 This version focuses on stability, performance, and a smoother progression experience with fewest possible changes to preserve the spirit of the original pack.
