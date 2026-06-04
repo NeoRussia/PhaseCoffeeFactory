@@ -3712,6 +3712,11 @@ hash = "562fd159f33564daf4f81a313e3df5272678bf0824192513cac6e67656abf681"
 metafile = true
 
 [[files]]
+file = "mods/quark-zeta-fixin.pw.toml"
+hash = "80ddde8f6dc65a76089467d5ef10af82f2aa3f8d256b300245ab865e0e517676"
+metafile = true
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
 metafile = true

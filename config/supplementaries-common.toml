@@ -288,7 +288,7 @@
 	[building.iron_gate]
 		enabled = true
 		#Allows two iron gates to be opened simultaneously when on top of the other
-		double_opening = true
+		double_opening = false
 		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
 		door-like_gates = false
 
