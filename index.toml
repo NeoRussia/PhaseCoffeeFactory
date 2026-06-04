@@ -2478,6 +2478,11 @@ hash = "2d4a452a00623eb1f43544d957e434b4840d38b71b44938b3f5a237d663e3826"
 metafile = true
 
 [[files]]
+file = "mods/advanced-peripherals.pw.toml"
+hash = "9fb849cf2f9989b064fdd9d43b99691f1aea7442571e333c61704ba85da7a275"
+metafile = true
+
+[[files]]
 file = "mods/ae-additions-extra-cells-2-fork.pw.toml"
 hash = "c607282fdb1588b22aa13cced8dfbc212386abe88c6247d61143e9bedbe18386"
 metafile = true
@@ -2897,6 +2902,11 @@ hash = "07f0dc6cf4e33e032ca3f5a678dfdf669f6914033728ef9ad396eb1d0bf15215"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "f78e7eba183dedd3eda458da9352c24ce39d4e09bf44521e74b7b18653f202f7"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
@@ -2912,6 +2922,11 @@ hash = "c6662c88657d43c539c4094e26f7c3ae9fd84a707c8a7bbd3737ee74839f45c9"
 metafile = true
 
 [[files]]
+file = "mods/create-interactive.pw.toml"
+hash = "69d316d900a3efc1981df59bd9cd9dccb763c7b780e0a9102eaa77051e8d9b1c"
+metafile = true
+
+[[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "af254a9e26ed280c6078e2d02aa9f511d5b3f0ae43767e6a35a87583014e5e6e"
 metafile = true
@@ -2922,8 +2937,23 @@ hash = "39cb52a90d4f3c40ad7d845e597b91c49526b8307fd52ac56b3fda2ae46160a1"
 metafile = true
 
 [[files]]
+file = "mods/create-sound-of-steam-tuning-wrench.pw.toml"
+hash = "a09f87dc40a37e689b0d335695d81e864e483b70201e2c93bf703ee10655095f"
+metafile = true
+
+[[files]]
+file = "mods/create-sound-of-steam.pw.toml"
+hash = "277996ea9c4dac8464578f9fd19e48d6d365bbc7d41af95966f24405b31ab1ff"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "401e108f239322ad849c9eb352ed2ccf1fa3b1da20fdfb91e3929d1989b2750c"
 metafile = true
 
 [[files]]
@@ -3253,6 +3283,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
+metafile = true
+
+[[files]]
+file = "mods/gauges-and-switches-ported.pw.toml"
+hash = "3cd4a0825c7667abbeee4389fe7eaac126562c3809ae54eba57096f10845be74"
 metafile = true
 
 [[files]]

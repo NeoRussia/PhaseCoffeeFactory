@@ -1,0 +1,13 @@
+name = "Create: Interactive"
+filename = "create_interactive-1.2.1_1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f7109809b71754dff91b16e5b43d4a0c308de88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7478572
+project-id = 925913

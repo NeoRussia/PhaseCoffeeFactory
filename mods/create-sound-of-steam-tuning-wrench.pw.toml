@@ -1,0 +1,13 @@
+name = "Create: Sound of Steam: Tuning Wrench"
+filename = "tuningwrench-1.1.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e03566e5c5469cc7c8656eb4facf3d82d038318c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7698328
+project-id = 1465279
