@@ -1,12 +1,12 @@
 name = "Phase Coffee Factory"
 author = "Neeyo"
-version = "1.0.4"
+version = "1.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c62fe39b56b34f50f585bb7e41ce978bd6a1df4b625b0faa0794dc2084794f32"
+hash = "7bcc1cd4bfbeb5de7b3806d969d025c792793bfa3a38bb2388833550718b7634"
 
 [versions]
 forge = "47.4.20"
