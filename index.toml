@@ -10,11 +10,15 @@ hash = "cef4ef92750706726ae2d55b52345c56d0d3171abac4694433e7a5c2cce75e80"
 
 [[files]]
 file = "README.md"
-hash = "a9beae981c96344be6038f122030fa4bce3041f2db26d62d3ab0903af36d36a0"
+hash = "21009c88317a7ab11c4510ec78cf5f90e2ae6f2e31633ec7501ff0deafb9d779"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "0bfb006605bde7f71ecbccda8e4549412af5f3c290283dd537f8cad3a37edf05"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -142,7 +146,7 @@ hash = "65b655cc0b6de937037c3cee68791040093411080bd8518a92b96a4d08a5351d"
 
 [[files]]
 file = "config/alexscaves-client.toml"
-hash = "4c146ba6e12b1bdc2259f9bb8ee48ffc20719b8c506726e1c736eccc99c94758"
+hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
 file = "config/alexscaves-general.toml"
@@ -803,6 +807,10 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 [[files]]
 file = "config/create_central_kitchen-common.toml"
 hash = "d769909a3c4ab55be032c8a07904bd870477dc443cdadb3464c8e30aedf3441c"
+
+[[files]]
+file = "config/create_interactive-common.toml"
+hash = "3f958c80f9f4a15fe15b2ea4d4d10171d7bab2db548f725de1be71a708c1af85"
 
 [[files]]
 file = "config/create_new_age-client.toml"
@@ -1750,7 +1758,7 @@ hash = "e510ade514fc20487fe918b95c5275ae4ce719e4bbad4e14fa70d86e8c2dcafc"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "85f572e738010c7b393eef58101c66660b7c97c0dcebd7023d07584886255366"
+hash = "e659f1fb5030adac3c7c431afa76466e6298f6dd83498bc1c536c717ec73c68d"
 
 [[files]]
 file = "config/terrablender.toml"
