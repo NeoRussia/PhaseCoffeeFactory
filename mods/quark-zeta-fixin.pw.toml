@@ -1,0 +1,13 @@
+name = "Quark Zeta Fixin"
+filename = "quarkzetafixin-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "986d2f1cc9647ee0954a6e21cf6f669899e76d4c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8128097
+project-id = 1550551
