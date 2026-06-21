@@ -1,0 +1,61 @@
+{
+  "advanced": {
+    "minecraft:lava": {
+      "minecraft:water": {
+        "resultsFromTop": {
+          // vanilla stone generator
+          "*": [
+            {
+              "id": "minecraft:stone",
+              "weight": 1,
+            }
+          ],
+        },
+        "results": {
+          // vanilla cobblestone generator
+          "*": [
+            {
+              "id": "minecraft:cobblestone",
+              "weight": 1,
+            }
+          ],
+        },
+      },
+      "b:minecraft:blue_ice": {
+        "results": {
+          // vanilla basalt generator
+          "minecraft:soul_soil": [
+            {
+              "id": "minecraft:basalt",
+              "weight": 1,
+            }
+          ],
+        },
+      },
+    },
+    "alexscaves:acid": {
+      "minecraft:lava": {
+        "results": {
+          // alex's caves radrock generator
+          "*": [
+            {
+              "id": "alexscaves:radrock",
+              "weight": 1,
+            }
+          ],
+        },
+      },
+      "minecraft:water": {
+        "results": {
+          // alex's caves mud generator
+          "*": [
+            {
+              "id": "minecraft:mud",
+              "weight": 1,
+            }
+          ],
+        },
+      },
+    },
+  }
+}
