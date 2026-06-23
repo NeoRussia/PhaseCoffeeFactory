@@ -2626,7 +2626,13 @@ ServerEvents.recipes(event => {
             A: '#minecraft:saplings',
         }
     )
-
+	//Sound of Steam
+	event.remove({ id: 'pipeorgans:pressing/brass_reed' })
+	event.custom({
+		type: "createaddition:rolling",
+		input: { "tag": "forge:nuggets/brass" },
+		result: { "item": 'pipeorgans:brass_reed' }
+	}).id('kubejs:rolling/brass_reed')
 
 })
 // Visit the wiki for more info - https://kubejs.com/
