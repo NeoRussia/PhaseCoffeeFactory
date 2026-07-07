@@ -3,32 +3,39 @@
     "minecraft:lava": {
       "minecraft:water": {
         "resultsFromTop": {
-          // vanilla stone generator
+          // tweaked stone generator
           "*": [
             {
               "id": "minecraft:stone",
               "weight": 1,
-            }
+              "minY": 0,
+            },
+            {
+              "id": "minecraft:deepslate",
+              "weight": 1,
+              "maxY": 0,
+            },
           ],
         },
         "results": {
-          // vanilla cobblestone generator
+          // tweaked cobblestone generator
           "*": [
             {
               "id": "minecraft:cobblestone",
               "weight": 1,
-            }
+              "minY": 0,
+            },
+            {
+              "id": "minecraft:cobbled_deepslate",
+              "weight": 1,
+              "maxY": 0,
+            },
           ],
         },
       },
-      "b:minecraft:blue_ice": {
         "results": {
-          // vanilla basalt generator
-          "minecraft:soul_soil": [
             {
-              "id": "minecraft:basalt",
               "weight": 1,
-            }
           ],
         },
       },
@@ -41,7 +48,7 @@
             {
               "id": "alexscaves:radrock",
               "weight": 1,
-            }
+            },
           ],
         },
       },
@@ -52,7 +59,7 @@
             {
               "id": "minecraft:mud",
               "weight": 1,
-            }
+            },
           ],
         },
       },
