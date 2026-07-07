@@ -2785,6 +2785,11 @@ hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
+file = "mods/cobblegen.pw.toml"
+hash = "fd74270e3aa8393b608660203830c131d490ddbbddf2e3b0cb290c46f42acbe1"
+metafile = true
+
+[[files]]
 file = "mods/cobweb.pw.toml"
 hash = "bc5bde51620622b9f415bcc3dfea4dca5bd17171383cf4290e1075b7352adbe0"
 metafile = true
