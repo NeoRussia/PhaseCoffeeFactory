@@ -18,6 +18,12 @@
           ],
         },
         "results": {
+          "minecraft:bone_block": [
+            {
+              "id": "minecraft:calcite",
+              "weight": 1,
+            },
+          ],
           // tweaked cobblestone generator
           "*": [
             {
@@ -33,9 +39,23 @@
           ],
         },
       },
+      "create_central_kitchen:tomato_sauce": {
         "results": {
+          "*": [
             {
+              "id": "create:crimsite",
               "weight": 1,
+            },
+          ],
+        },
+      },
+      "thermal:syrup": {
+        "results": {
+          "*": [
+            {
+              "id": "create:ochrum",
+              "weight": 1,
+            },
           ],
         },
       },
