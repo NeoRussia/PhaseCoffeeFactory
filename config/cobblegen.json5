@@ -1,0 +1,88 @@
+{
+  "advanced": {
+    "minecraft:lava": {
+      "minecraft:water": {
+        "resultsFromTop": {
+          // tweaked stone generator
+          "*": [
+            {
+              "id": "minecraft:stone",
+              "weight": 1,
+              "minY": 0,
+            },
+            {
+              "id": "minecraft:deepslate",
+              "weight": 1,
+              "maxY": 0,
+            },
+          ],
+        },
+        "results": {
+          "minecraft:bone_block": [
+            {
+              "id": "minecraft:calcite",
+              "weight": 1,
+            },
+          ],
+          // tweaked cobblestone generator
+          "*": [
+            {
+              "id": "minecraft:cobblestone",
+              "weight": 1,
+              "minY": 0,
+            },
+            {
+              "id": "minecraft:cobbled_deepslate",
+              "weight": 1,
+              "maxY": 0,
+            },
+          ],
+        },
+      },
+      "create_central_kitchen:tomato_sauce": {
+        "results": {
+          "*": [
+            {
+              "id": "create:crimsite",
+              "weight": 1,
+            },
+          ],
+        },
+      },
+      "thermal:syrup": {
+        "results": {
+          "*": [
+            {
+              "id": "create:ochrum",
+              "weight": 1,
+            },
+          ],
+        },
+      },
+    },
+    "alexscaves:acid": {
+      "minecraft:lava": {
+        "results": {
+          // alex's caves radrock generator
+          "*": [
+            {
+              "id": "alexscaves:radrock",
+              "weight": 1,
+            },
+          ],
+        },
+      },
+      "minecraft:water": {
+        "results": {
+          // alex's caves mud generator
+          "*": [
+            {
+              "id": "minecraft:mud",
+              "weight": 1,
+            },
+          ],
+        },
+      },
+    },
+  }
+}
