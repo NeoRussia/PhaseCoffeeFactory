@@ -2481,11 +2481,6 @@ file = "mods/Structory_1.20.x_v1.3.5.jar"
 hash = "f13e9f54fa5b7cdf09c3110bda9b79f8f60bd5bb0476fc5626c5e590dd46e6e1"
 
 [[files]]
-file = "mods/adorable-hamster-pets.pw.toml"
-hash = "2d4a452a00623eb1f43544d957e434b4840d38b71b44938b3f5a237d663e3826"
-metafile = true
-
-[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "9fb849cf2f9989b064fdd9d43b99691f1aea7442571e333c61704ba85da7a275"
 metafile = true
